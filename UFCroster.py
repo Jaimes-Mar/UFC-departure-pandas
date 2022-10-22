@@ -10,7 +10,7 @@ df.drop(labels=[0],axis=0,inplace=True) #removes empty first row
 df2=df.fillna("Reason N/a")# creates 2nd data frame with NaN cells as "Reason N/a"
 
 '''
-SHIT DONT WORK BECAUSE THE DATA FRAME HAS MISSING VALUES FROM COMBINIGNG THE SPREADSHEETS
+ THE DATA FRAME HAS MISSING VALUES FROM COMBINIGNG THE SPREADSHEETS
 df2['Date'] = pd.to_datetime(df2['Date']).dt.normalize()
 
 
